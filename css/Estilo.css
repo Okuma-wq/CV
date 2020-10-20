@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .topo{
+                background-color: black;
+                width: 100%;
+                height: 85px;
+            }
+
+            .menu{
+                margin: auto;
+                /* background-color: red; */
+                width: 700px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .menu ul{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                list-style-type: none;
+            }
+
+            .menu a{
+                text-decoration: none;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-family: 'open sans', sans-serif;
+                font-size: 15px;
+            }
+            .menu a:hover{
+                color: royalblue;
+            }
+            /* fim do menu */
+
+            .banner{
+                width: 100%;
+                height: 580px;
+                background-color: #f5f5f5;
+            }
+            .content{
+                margin: auto;
+                width: 1000px;
+                height: 100%;
+                /* background-color: lightblue; */
+            }
+            .alinhamento-centro{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .banner-text{
+                /* background-color: lightblue; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .banner-text h2{
+                font-family: 'roboto', cursive;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+            .banner-text h1{
+                font-family: 'roboto', cursive;
+                font-size: 60px;
+                text-transform: uppercase;
+            }
+            .banner-text p{
+                text-align: center;
+                font-family: 'roboto', cursive;
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 40px;
+            }
+            .banner-text a{
+                font-family: 'roboto', cursive;
+                font-size: 25px;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: #272727;
+                color: #f5f5f5;
+                width: 270px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+            }
+            
+            /* Fim do Banner */
+
+            .sobre{
+                width: 100%;
+                height: 600px;
+            }
+            .sobre h2{
+                /* margin: auto; */
+                /* background-color: lightblue; */
+                font-family: 'roboto', cursive;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 30px;
+                padding-top: 65px;
+                padding-bottom: 50px;
+            }
+            .alinhamentos-sobre{
+                display: flex;
+                justify-content: space-between;
+            }
+             
+                /* Alinhamento esquerda */
+            .alinhamento-esquerda{
+                /* background-color: lightblue; */
+                width: 45%;     
+            }
+            .alinhamento-esquerda h3{
+                font-family:'roboto', cursive;
+                font-size: 25px;
+                padding-bottom: 25px;
+            }
+            .alinhamento-esquerda  p{
+                font-family: 'roboto', cursive;
+                font-size: 20px;
+                font-weight: 500;
+                padding-bottom: 40px;
+            }
+            .alinhamento-esquerda a{
+                font-family: 'roboto', cursive;
+                font-size: 25px;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: #272727;
+                color: #f5f5f5;
+                width: 270px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+            }
+            
+                /* Alinhamento Direita */
+            .alinhamento-direita{
+                width: 45%;
+                /* background-color: lightblue; */
+                text-transform: uppercase;
+            }
+            .alinhamento-direita h3{
+                font-family: 'roboto', cursive;
+
+            }
+            .barra-total {
+                width: 450px;
+                height: 20px;
+                background-color: rgb(190, 189, 189);
+                border-radius: 35px;
+                position: absolute;
+            }
+            .barra-design{
+                width: 350px;
+                height: 20px;
+                border-radius: 35px;
+                background-color: #272727;
+                position: absolute;
+            }
+            .html{
+                padding-top: 95px;
+            }
+            .barra-html{
+                width: 420px;
+                height: 20px;
+                border-radius: 35px;
+                background-color: #272727;
+                position: absolute;
+            }
+            .wordpress{
+                padding-top: 95px;
+            }
+            .barra-wordpress{
+                width: 240px;
+                height: 20px;
+                border-radius: 35px;
+                background-color: #272727;
+                position: absolute;
+            }
+
+            /* Meus Trabalhos */
+            .meus-trabalhos{
+                width: 100%;
+                height: 600px;
+                background-color: #f5f5f5;
+            }
+
+            .meus-trabalhos h3{
+                /* background-color: blue; */
+                text-align: center;
+                padding-top: 65px;
+                padding-bottom: 40px;
+                font-family: 'roboto', cursive;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+
+            .trabalhos{
+                display: flex;
+                justify-content: space-between;
+                /* background-color: blue; */
+                margin: auto;
+            }
+
+            .trabalhos img:hover{
+                width: 300px;
+                height: auto;
+                padding: 20px
+            }
+
+            .trabalho{
+                width: 240px;
+            }
+            
+            /* Fim de Meus trabalhos */
+
+            .rodape{
+                width: 100%;
+                height: 130px;
+            }
+
+            .posicionamento-rodape{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .copyright{
+                font-size: 15px;
+                font-family: 'roboto', cursive;
+            }
+
+            .redes-sociais{
+                /* background-color: lightblue; */
+                width: 400px;
+                display: flex;
+                justify-content: space-between;               
+            }
+
+            .redes-sociais a{
+                font-family: 'roboto', cursive;
+                color: black;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 15px;
+            }
